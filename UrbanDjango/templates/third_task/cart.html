@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игровая платформа</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    {% for game in team %}
+        <p>{{ game }}   <button>Отменить</button></p>
+    {% endfor %}
+    <button><a href="/platform">Вернуться обратно</a></button>
+</body>
+</html>
